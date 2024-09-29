@@ -11,7 +11,6 @@ def is_prime(func):
                 else:
                     print("Простое")
             return result
-
     return wrapper
 
 
