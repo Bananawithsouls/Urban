@@ -18,7 +18,7 @@ async def start_tournament():
         start_strongman('Apollon', 5)
     ]
 
-    # Ждем завершения всех задач
+    # Ждем завершения задач
     await asyncio.gather(*tasks)
 
 
