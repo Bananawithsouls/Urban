@@ -7,9 +7,9 @@ def home(request):
 
 def shop(request):
     items = {
-        'item1': 'Игровая приставка',
-        'item2': 'Компьютерная игра',
-        'item3': 'Игровая мышь',
+        'item1': 'Atomic Heart',
+        'item2': 'Cyberpak 2077',
+        'item3': 'Pay Day 2',
     }
     return render(request, 'third_task/shop.html', {'items': items})
 
