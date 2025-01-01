@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     # другие приложения
     'task3',
     'task4',
+    'task5',
 ]
 
 MIDDLEWARE = [
