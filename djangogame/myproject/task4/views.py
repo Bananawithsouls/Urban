@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 
-def index(request):
-    return render(request, 'fourth_task/index.html')
+def home(request):
+    return render(request, 'fourth_task/home.html')
 
 
 def shop(request):
@@ -12,3 +12,8 @@ def shop(request):
 
 def cart(request):
     return render(request, 'fourth_task/cart.html')
+
+
+def menu(request):
+    return render(request, 'fourth_task/menu.html')
+
